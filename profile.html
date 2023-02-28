@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF 8">
+    <meta charset="utf-8">
     <title>Profile</title>
-    <!-- Someday I'll use CSS
-        <style>
-            
-        </style>
-        -->
+    <style>
+      .tatum {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+      }
+      h1, h2, .list {
+        text-align: center;
+      }
+      .hobbies {
+        text-align: left;
+        display: inline-block;
+      }
+      .logo {
+        position: absolute;
+        right: 0px
+      }
+    </style>
   </head>
-  <body>
-    <h1>Tatum Katsutani</h1>
-    <img src="tatumkats.jpg" width="30%" height="30%" alt="Picture of Tatum Katsutani">
-    <h2>Special Interests</h2>
-    <ul>
+  <body style="background-color: rgb(227, 218, 204)">
+    <a href="index.html"><img src="images/tate.png" alt="Home Page" class="logo"></a>
+    <h1>
+      Tatum Katsutani ❀
+    </h1>
+    <img src="images/tatumkats.jpg" width="300" height="400" alt="Picture of Tatum Katsutani" class="tatum">
+    <h2>
+      Special Interests
+    </h2>
+    <div class="list">
+    <ul class="hobbies">
       <li>Graphic Design</li>
       <li>Sewing</li>
       <li>Folding Origami</li>
     </ul>
+    </div>
   </body>
 </html>
