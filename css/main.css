@@ -6,7 +6,8 @@ body {
   right: 0px;
   top: 22px;
   width: 100px;
-  border: 20px solid white;
+  border: 2px solid white;
+  border-radius: 4px solid white;
 }
 h1, h2, p {
   color: white;
