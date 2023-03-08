@@ -6,9 +6,9 @@ body {
   right: 0px;
   top: 22px;
   width: 100px;
-  border-top: 2px solid white;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
+  border-top-style: 2px solid white;
+  border-left-style: 2px solid white;
+  border-right-style: 2px solid white;
   border-radius: 4px solid white;
 }
 h1, h2, p {
