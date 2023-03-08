@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Style</title>
-    <style>
-      body {
-          background-color: rgb(75,45,5);
-      }
-      .logo {
-        position: absolute;
-        right: 0px;
-        top: 22px;
-        width: 100px;
-      }
-    </style>
-  </head>
-</html>
+body {
+  background-color: rgb(75,45,5);
+}
+.logo {
+  position: absolute;
+  right: 0px;
+  top: 22px;
+  width: 100px;
+}
+h1 {
+  color: white;
+}
