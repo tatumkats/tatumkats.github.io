@@ -8,6 +8,7 @@ body {
   width: 100px;
   border-color: white;
   border-width: 2px;
+  border-radius: 4px;
   border-top-style: solid;
   border-left-style: solid;
   border-right-style: solid;
