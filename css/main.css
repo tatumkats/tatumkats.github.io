@@ -6,9 +6,11 @@ body {
   right: 0px;
   top: 22px;
   width: 100px;
-  border-top-style: 2px solid white;
-  border-left-style: 2px solid white;
-  border-right-style: 2px solid white;
+  border-color: white;
+  border width: 2px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
 }
 h1, h2, p {
   color: white;
