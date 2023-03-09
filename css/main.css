@@ -9,11 +9,11 @@ body {
   border: 2px solid white;
   border-radius: 4px;
 }
-h2, p {
-  color: white;
-}
 h1 {
   color: white;
   font-size: 30pt;
   font-family: papyrus, fantasy;
+}
+h2, p {
+  color: white;
 }
