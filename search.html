@@ -23,12 +23,14 @@
         <label for="search">Search:</label>
         <input type="text" name="q" id="search" placeholder="Islands">
         <p>Website to Browse:
-          <select name="as_sitesearch" name="newwindow=1">
+          <select name="as_sitesearch">
             <option value=""></option>
             <option value="gohawaii.com">Hawai'i Information</option>
             <option value="hawaiitravelspot.com">Local Hawaiian Flowers</option>
           </select>
-      </p>
+        </p>
+        <label for="808">Open in a New Window</label>
+        <input type="radio" name="newwindow" value="1" id="808">
       </fieldset>
       <fieldset style="width: 300px;">
         <label for="booksearch">Book Search:</label>
@@ -39,6 +41,9 @@
             <option value="unco.edu">James A. Michener Library</option>
             <option value="wclibrarytn.org">Greeley Public Library</option>
           </select>
+        </p>
+        <label for="808">Open in a New Window</label>
+        <input type="radio" name="newwindow" value="1" id="808">
       </fieldset>
       <input class="submit" type="submit" value="Search">
     </form>
