@@ -28,12 +28,30 @@
             <option value="gohawaii.com">Hawai'i Information</option>
             <option value="hawaiitravelspot.com">Local Hawaiian Flowers</option>
           </select>
-        <fieldset>
+        <div>
             <label for="hawaii">Open in a New Window</label>
             <input type="radio" name="newwindow" value="1" id="hawaii">
-        </fieldset>
+        </div>
       </fieldset>
       <input class="submit" type="submit" value="Search">
     </form>
+    <form action="https://www.google.com/search" method="GET">
+      <fieldset style="width: 300px;">
+        <label for="booksearch">Books:</label>
+        <input type="text" name="q" id="booksearch" placeholder="The Great Gatsby">
+        <p>Online Library:
+          <select name="as_sitesearch">
+            <option value=""></option>
+            <option value="unco.edu">James A. Michener Library</option>
+            <option value="wclibrarytn.org">Greeley Public Library</option>
+          </select>
+        </p>
+        <div>
+            <label for="books">Open in a New Window</label>
+            <input type="radio" name="newwindow" value="1" id="books">
+        </div>
+      </fieldset>
+    </form>
+   <input class="submit" type="submit" value="Search">
   </body>
 </html>
