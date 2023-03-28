@@ -23,16 +23,18 @@
         <label for="search">Hawai'i Travel:</label>
         <input type="text" name="q" id="search" placeholder="Islands">
         <p>Website to Browse:
-          <select name="as_sitesearch" name="fliter" value="0">
+          <select name="as_sitesearch">
             <option value=""></option>
             <option value="gohawaii.com">Hawai'i Information</option>
             <option value="hawaiitravelspot.com">Local Hawaiian Flowers</option>
           </select>
         </p>
-        <div>
-          <label for="hawaii">Open in a New Window</label>
-          <input type="radio" name="newwindow" value="1" id="hawaii" target="_blank">
-        </div>
+        <fieldset>
+          <div>
+            <label for="hawaii">Open in a New Window</label>
+            <input type="radio" name="newwindow" value="1" id="hawaii">
+          </div>
+        </fieldset>
       </fieldset>
       <fieldset style="width: 300px;">
         <label for="booksearch">Books:</label>
@@ -44,10 +46,12 @@
             <option value="wclibrarytn.org">Greeley Public Library</option>
           </select>
         </p>
-        <div>
-          <label for="808">Open in a New Window</label>
-          <input type="radio" name="newwindow" value="1" id="808" target="_blank">
-        </div>
+        <fieldset>
+          <div>
+            <label for="808">Open in a New Window</label>
+            <input type="radio" name="newwindow" value="1" id="808">
+          </div>
+        </fieldset>
       </fieldset>
       <input class="submit" type="submit" value="Search">
     </form>
