@@ -18,7 +18,7 @@
   <body>
     <a href="index.html"><img src="images/tate.png" alt="Home Page" class="logo"></a>
     <h1>Google Super Search</h1>
-    <form action="https://www.google.com/search" method="GET">
+    <form action="https://www.google.com/search" method="GET" target="_blank">
       <fieldset style="width: 300px;">
         <label for="search">Hawai'i Travel:</label>
         <input type="text" name="q" id="search" placeholder="Islands">
@@ -31,25 +31,25 @@
         </p>
         <div>
             <label for="hawaii">Open in a New Window</label>
-            <input type="radio" name="newwindow" value="1" id="hawaii" target="_blank">
+            <input type="radio" name="filter" value="0" id="hawaii">
         </div>
       </fieldset>
       <input class="submit" type="submit" value="Search">
     </form>
-    <form action="https://www.google.com/search" method="GET">
+    <form action="https://www.google.com/search" method="GET" target="_blank">
       <fieldset style="width: 300px;">
         <label for="booksearch">Books:</label>
         <input type="text" name="q" id="booksearch" placeholder="The Great Gatsby">
         <p>Online Library:
           <select name="as_sitesearch">
             <option value=""></option>
-            <option <a href="https://www.unco.edu/library/">James A. Michener Library</option>
+            <option value="dp.la">Public Library of America</option>
             <option value="wclibrarytn.org">Greeley Public Library</option>
           </select>
         </p>
         <div>
-            <label for="books">Open in a New Window</label>
-            <input type="radio" name="newwindow" value="1" id="books" target="_blank">
+            <label for="books">Show Hidden Resources</label>
+            <input type="radio" name="filter" value="0" id="books">
         </div>
       </fieldset>
       <input class="submit" type="submit" value="Search">
