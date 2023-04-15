@@ -14,7 +14,7 @@ body {
   background-color: rgb(30,100,15);
 }
 h3 {
-  background-color: rgb(109,97,78);
+  background-image: linear-gradient(to left, rgba(109,97,78,0), rgba(109,97,78,1));
 }
 li {
   list-style-type: square;
