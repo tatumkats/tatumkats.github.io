@@ -7,6 +7,8 @@ a.navlinks:visited {
 }
 img {
   border-radius: 50%;
+  width: 200px;
+  float: right;
 }
 body {
   color: white;
