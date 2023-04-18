@@ -23,5 +23,5 @@ li {
 }
 hr.solid {
   width: 300px;
-  align: left;
+  align-content: flex-start;
 }
