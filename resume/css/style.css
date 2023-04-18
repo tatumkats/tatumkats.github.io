@@ -21,7 +21,3 @@ h3 {
 li {
   list-style-type: square;
 }
-hr.solid {
-  width: 300px;
-  align-content: flex-start;
-}
