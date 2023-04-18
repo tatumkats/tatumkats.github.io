@@ -1,7 +1,9 @@
 a.navlinks {
   color: white;
+  background-color: rgb(30,100,15)
 }
 a.navlinks:visited {
+  color: white;
   background-color: rgb(109,97,78);
 }
 img {
