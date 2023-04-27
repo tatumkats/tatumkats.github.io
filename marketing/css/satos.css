@@ -1,6 +1,10 @@
 .carousel {
   width: 800px; 
   height: 400px; 
+}
+img {
+  width: 800px;
+  height: 400px;
   object-fit: cover;
-  object-position: 25% 25%; 
+  object-position: 25% 25%;
 }
