@@ -2,16 +2,16 @@
   width: 600px; 
   height: 300px; 
 }
+
 img {
   width: 600;
   height: 300px;
   object-fit: cover;
-  object-position: 50% 20%;
+  object-position: 50% 75%;
 }
-.gingham {
-  opacity: 50%;
-}
+
 h1 {
   margin: 10px;
   font-family: "Times New Roman", Times, serif;
+  font-style: bold;
 }
