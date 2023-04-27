@@ -8,3 +8,10 @@ img {
   object-fit: cover;
   object-position: 50% 20%;
 }
+.gingham {
+  opacity: 50%;
+}
+h1 {
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
