@@ -7,11 +7,15 @@ img {
   width: 600;
   height: 300px;
   object-fit: cover;
-  object-position: 50% 75%;
+  object-position: 30% 75%;
 }
 
 h1 {
   margin: 10px;
   font-family: "Times New Roman", Times, serif;
-  font-style: bold;
+  font-weight: bold;
+}
+
+body {
+  background-image: url('gingham.jpg');
 }
