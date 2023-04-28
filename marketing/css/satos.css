@@ -7,7 +7,7 @@ img {
   width: 600;
   height: 300px;
   object-fit: cover;
-  object-position: 5% 75%;
+  object-position: 5% 50%;
 }
 
 h1 {
@@ -17,6 +17,6 @@ h1 {
 }
 
 body {
-  background-image: url('gingham.jpg');
+  background: url('gingham.jpg');
   background-repeat: no-repeat;
 }
