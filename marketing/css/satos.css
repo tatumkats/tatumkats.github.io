@@ -4,10 +4,10 @@
 }
 
 .carousel-item {
-  width: 600;
+  width: 600px;
   height: 300px;
   object-fit: cover;
-  object-position: 5% 50%;
+  object-position: 50% 90%;
 }
 
 h1 {
