@@ -3,7 +3,7 @@
   height: 300px; 
 }
 
-.carousel-item {
+.img {
   width: 600px;
   height: 300px;
   object-fit: cover;
@@ -17,7 +17,7 @@ h1 {
 }
 
 body {
-  background-image: url('gingham.jpg');
+  background-image: url('img_gingham.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
