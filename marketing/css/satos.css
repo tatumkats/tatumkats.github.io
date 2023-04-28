@@ -17,6 +17,8 @@ h1 {
 }
 
 body {
-  background: url('gingham.jpg');
+  background-image: url('gingham.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
