@@ -17,7 +17,7 @@ h1 {
 }
 
 body {
-  background- image: url("img_bluegingham.jpg");
+  background-image: url("img_bluegingham.jpg");
   background-repeat: repeat;
   background-attachment: fixed;  
   background-size: cover;
