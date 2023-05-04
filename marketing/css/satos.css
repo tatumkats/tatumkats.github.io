@@ -7,7 +7,7 @@ img {
   width: 600px;
   height: 300px;
   object-fit: cover;
-  object-position: 60% 60%;
+  object-position: 60% 50%;
 }
 
 h1 {
